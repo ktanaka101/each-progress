@@ -1,0 +1,9 @@
+name: each_progress
+version: 0.1.0
+
+authors:
+  - Kentaro Tanaka <kentanaka101@gmail.com>
+
+crystal: 0.28.0
+
+license: MIT
