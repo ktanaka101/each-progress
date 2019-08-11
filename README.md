@@ -1,6 +1,6 @@
 # each-progress
 
-Simple progress bar.  
+Simple progress bar.
 Supports only each.
 
 ## Installation
