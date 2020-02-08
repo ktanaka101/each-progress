@@ -26,6 +26,7 @@ module EachProgress
 
     def remaining_time : Time::Span
       prcnt = percent
+      return Time::Span::ZERO if prcnt == 0
       remaining_prcnt = 100 - prcnt
       prcnts_per_second = @timer.elapsed_time.total_seconds.to_f / prcnt
       (remaining_prcnt * prcnts_per_second).ceil.seconds
